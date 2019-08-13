@@ -205,7 +205,7 @@ def save_model(model, model_filename):
     :param model_filename: Filename
     :return: None
     '''
-    model.save('../models/{}.h5'.format(model_filename))  # creates a HDF5 file 'my_model.h5'
+    model.save('models/{}.h5'.format(model_filename))  # creates a HDF5 file 'my_model.h5'
 
 
 ############################################################
