@@ -1,16 +1,11 @@
-import multiprocessing
 import os
-import pandas as pd
-from collections import Counter
 import sys
+
 from keras.engine.saving import load_model
 
 import accuracy
-import librosa
-import numpy as np
 
-from getsplit import filter_df, split_people
-from helper import to_categorical, get_wav, to_mfcc
+from accent_detector.helper import get_wav, to_mfcc
 from trainmodel import segment_one
 
 DEBUG = True
@@ -50,7 +45,14 @@ class SoundPredictor:
         return prediction
 
 
-predictor = SoundPredictor()
-for i in range(1, 20):
-    print(predictor.predict("arabic" + str(i)))
-# print(predictor.predict("arabic6"))
+if __name__ == '__main__':
+
+    folder_path = sys.argv[1]
+    if not folder_path:
+        folder_path = "../audio"
+
+    predictor = SoundPredictor()
+    for i in range(1, 20):
+        file_path = os.path.join(folder_path, "arabic" + str(i))
+        print(predictor.predict(file_path))
+    # print(predictor.predict("arabic6"))
