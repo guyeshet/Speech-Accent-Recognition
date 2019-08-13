@@ -268,7 +268,7 @@ if __name__ == '__main__':
     X_validation, y_validation = make_segments(X_test, y_test)
 
     # Randomize training segments
-    X_train, _, y_train, _ = train_test_split(X_train, y_train, test_size=0)
+    # X_train, _, y_train, _ = train_test_split(X_train, y_train, test_size=0)
 
     # Train model
     model = train_model(np.array(X_train), np.array(y_train), np.array(X_validation), np.array(y_validation))
