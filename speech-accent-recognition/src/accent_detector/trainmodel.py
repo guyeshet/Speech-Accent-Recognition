@@ -253,14 +253,14 @@ if __name__ == '__main__':
     if DEBUG:
         print('Loading wav files....')
     pool = multiprocessing.Pool(processes=multiprocessing.cpu_count())
-    X_train = map(get_wav, X_train)
-    X_test = map(get_wav, X_test)
+    X_train = pool.map(get_wav, X_train)
+    X_test = pool.map(get_wav, X_test)
 
     # Convert to MFCC
     if DEBUG:
         print('Converting to MFCC....')
-    X_train = map(to_mfcc, X_train)
-    X_test = map(to_mfcc, X_test)
+    X_train = pool.map(to_mfcc, X_train)
+    X_test = pool.map(to_mfcc, X_test)
 
     # Create segments from MFCCs
     X_train, y_train = make_segments(X_train, y_train)
