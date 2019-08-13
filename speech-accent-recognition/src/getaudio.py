@@ -4,9 +4,12 @@ import os
 import sys
 from pydub import AudioSegment
 
+from constants import DEBUG
+
+
 class GetAudio:
 
-    def __init__(self, csv_filepath, destination_folder= 'audio/', wait= 1.5, debug=False ):
+    def __init__(self, csv_filepath, destination_folder= 'audio/', wait= 1.5, debug=False):
         '''
         Initializes GetAudio class object
         :param destination_folder (str): Folder where audio files will be saved
@@ -18,7 +21,7 @@ class GetAudio:
         self.url = 'http://chnm.gmu.edu/accent/soundtracks/{}.mp3'
         self.destination_folder = destination_folder
         self.wait = wait
-        self.debug = False
+        self.debug = debug
 
     def check_path(self):
         '''
@@ -57,6 +60,7 @@ if __name__ == '__main__':
     python GetAudio.py audio_metadata.csv
     '''
     csv_file = sys.argv[1]
-    ga = GetAudio(csv_filepath=csv_file)
+    ga = GetAudio(csv_filepath=csv_file,
+                  debug=DEBUG)
     ga.get_audio()
 

@@ -7,8 +7,10 @@ import re
 
 ROOT_URL = 'http://accent.gmu.edu/'
 BROWSE_LANGUAGE_URL = 'browse_language.php?function=find&language={}'
-WAIT = 1.2
+# WAIT = 1.2
+WAIT = 0.1
 DEBUG = True
+
 
 def get_htmls(urls):
     '''
@@ -23,7 +25,7 @@ def get_htmls(urls):
         htmls.append(requests.get(url).text)
         time.sleep(WAIT)
 
-    return(htmls)
+    return (htmls)
 
 
 def build_search_urls(languages):
@@ -32,7 +34,8 @@ def build_search_urls(languages):
     :param languages (list): List of languages
     :return (list): List of urls
     '''
-    return([ROOT_URL+BROWSE_LANGUAGE_URL.format(language) for language in languages])
+    return ([ROOT_URL + BROWSE_LANGUAGE_URL.format(language) for language in languages])
+
 
 def parse_p(p_tag):
     '''
@@ -40,8 +43,9 @@ def parse_p(p_tag):
     :param p_tag (str): HTML string
     :return (str): string of link
     '''
-    text = p_tag.text.replace(' ','').split(',')
-    return([ROOT_URL+p_tag.a['href'], text[0], text[1]])
+    text = p_tag.text.replace(' ', '').split(',')
+    return ([ROOT_URL + p_tag.a['href'], text[0], text[1]])
+
 
 def get_bio(hrefs):
     '''
@@ -51,15 +55,16 @@ def get_bio(hrefs):
     '''
 
     htmls = get_htmls(hrefs)
-    bss = [BeautifulSoup(html,'html.parser') for html in htmls]
+    bss = [BeautifulSoup(html, 'html.parser') for html in htmls]
     rows = []
     bio_row = []
     for bs in bss:
-        rows.append([li.text for li in bs.find('ul','bio').find_all('li')])
+        rows.append([li.text for li in bs.find('ul', 'bio').find_all('li')])
     for row in rows:
         bio_row.append(parse_bio(row))
 
-    return(pd.DataFrame(bio_row))
+    return (pd.DataFrame(bio_row))
+
 
 def parse_bio(row):
     '''
@@ -70,11 +75,11 @@ def parse_bio(row):
     cols = []
     for col in row:
         try:
-            tmp_col = re.search((r"\:(.+)",col.replace(' ','')).group(1))
+            tmp_col = re.search((r"\:(.+)", col.replace(' ', '')).group(1))
         except:
             tmp_col = col
         cols.append(tmp_col)
-    return(cols)
+    return (cols)
 
 
 def create_dataframe(languages):
@@ -84,7 +89,7 @@ def create_dataframe(languages):
     :return df (DataFrame): DataFrame that contains all audio metadata from searched language
     '''
     htmls = get_htmls(build_search_urls(languages))
-    bss = [BeautifulSoup(html,'html.parser') for html in htmls]
+    bss = [BeautifulSoup(html, 'html.parser') for html in htmls]
     persons = []
 
     for bs in bss:
@@ -92,21 +97,21 @@ def create_dataframe(languages):
             if p.a:
                 persons.append(parse_p(p))
 
-    df = pd.DataFrame(persons, columns=['href','language_num','sex'])
+    df = pd.DataFrame(persons, columns=['href', 'language_num', 'sex'])
 
     bio_rows = get_bio(df['href'])
 
     if DEBUG:
         print('loading finished')
 
-    df['birth_place'] = bio_rows.iloc[:,0]
-    df['native_language'] = bio_rows.iloc[:,1]
-    df['other_languages'] = bio_rows.iloc[:,2]
-    df['age_sex'] = bio_rows.iloc[:,3]
-    df['age_of_english_onset'] = bio_rows.iloc[:,4]
-    df['english_learning_method'] = bio_rows.iloc[:,5]
-    df['english_residence'] = bio_rows.iloc[:,6]
-    df['length_of_english_residence'] = bio_rows.iloc[:,7]
+    df['birth_place'] = bio_rows.iloc[:, 0]
+    df['native_language'] = bio_rows.iloc[:, 1]
+    df['other_languages'] = bio_rows.iloc[:, 2]
+    df['age_sex'] = bio_rows.iloc[:, 3]
+    df['age_of_english_onset'] = bio_rows.iloc[:, 4]
+    df['english_learning_method'] = bio_rows.iloc[:, 5]
+    df['english_residence'] = bio_rows.iloc[:, 6]
+    df['length_of_english_residence'] = bio_rows.iloc[:, 7]
 
     df['birth_place'] = df['birth_place'].apply(lambda x: x[:-6].split(' ')[-2:])
     # print(df['birth_place'])
@@ -117,7 +122,8 @@ def create_dataframe(languages):
     df['other_languages'] = df['other_languages'].apply(lambda x: x.split(' ')[2:])
     # print(df['other_languages'])
     # df['other_languages'] = lambda x: x.split(' ')[2:], df['other_languages']
-    df['age_sex'], df['age'] = df['age_sex'].apply(lambda x: x.split(' ')[2:]), df['age_sex'].apply(lambda x: x.replace('sex:','').split(',')[1])
+    df['age_sex'], df['age'] = df['age_sex'].apply(lambda x: x.split(' ')[2:]), df['age_sex'].apply(
+        lambda x: x.replace('sex:', '').split(',')[1])
     # print(df['age'])
     # df['age_sex'] = lambda x: x.split(' ')[2], df['age_sex']
     # df['age_of_english_onset'] = lambda x: float(x.split(' ')[-1]), df['age_of_english_onset']
@@ -135,7 +141,8 @@ def create_dataframe(languages):
 
     # df['age'] = lambda x: x.replace(' ','').split(',')[0], df['age_sex']
 
-    return(df)
+    return (df)
+
 
 if __name__ == '__main__':
     '''
@@ -158,12 +165,11 @@ if __name__ == '__main__':
     # Check if destination file exists, else create a new one
     try:
         df = pd.read_csv(destination_file)
-        df = df.append(create_dataframe(languages=languages),ignore_index=True)
+        df = df.append(create_dataframe(languages=languages), ignore_index=True)
 
     except:
         df = create_dataframe(languages=languages)
 
+    df.drop_duplicates(subset='language_num', inplace=True)
 
-    df.drop_duplicates(subset='language_num',inplace=True)
-
-    df.to_csv(destination_file,index=False)
+    df.to_csv(destination_file, index=False)

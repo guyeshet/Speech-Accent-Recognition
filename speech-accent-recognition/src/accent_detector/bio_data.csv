@@ -1,0 +1,177 @@
+href,language_num,sex,birth_place,native_language,other_languages,age_sex,age_of_english_onset,english_learning_method,english_residence,length_of_english_residence,age
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=256,mandarin1,female,"['shanxi,', 'china']",mandarin,['none'],"['26,', 'female', '']",13.0,academic,['usa'],2.0,26
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=2837,mandarin32,female,"['hubei,', 'china']",mandarin,['none'],"['21,', 'female', '']",2.0,academic,['usa'],5.0,21
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=61,english1,male,"['pennsylvania,', 'usa']",english,"['mandarin', '']","['42,', 'male', '']",0.0,naturalistic,['usa'],41.0,42
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=77,english2,female,"['birmingham,', 'uk']",english,"['german', 'mandarin', '']","['30,', 'female', '']",0.0,naturalistic,['uk'],30.0,30
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=11,arabic1,female,"['saudi', 'arabia']",arabic,['none'],"['38,', 'female', '']",12.0,academic,['usa'],4.0,38
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=16,arabic2,male,"['damascus,', 'syria']",arabic,['none'],"['18,', 'male', '']",2.5,naturalistic,['usa'],3.0,18
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=17,arabic3,male,"['doha,', 'qatar']",arabic,['none'],"['24,', 'male', '']",9.0,academic,['usa'],1.0,24
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=18,arabic4,male,"['arab', 'emirates']",arabic,"['french', '']","['19,', 'male', '']",6.0,academic,['usa'],0.6,19
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=19,arabic5,female,"['casablanca,', 'morocco']",arabic,"['french', '']","['19,', 'female', '']",15.0,academic,['usa'],0.6,19
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=20,arabic6,male,"['sanaa,', 'yemen']",arabic,['none'],"['21,', 'male', '']",14.5,academic,"['uk,usa']",2.0,21
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=21,arabic7,female,"['casablanca,', 'morocco']",arabic,"['french', '']","['18,', 'female', '']",15.0,academic,['usa'],0.1,  18
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=22,arabic8,male,"['casablanca,', 'morocco']",arabic,"['french', '']","['21,', 'male', '']",17.0,academic,['usa'],0.7,  21
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=23,arabic9,female,"['jerusalem,', 'israel']",arabic,['none'],"['28,', 'female', '']",4.0,academic,['usa'],12.0,  28
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=12,arabic10,male,"['cairo,', 'egypt']",arabic,"['french', 'german', '']","['26,', 'male', '']",5.0,academic,['usa'],2.0,  26
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=13,arabic11,female,"['monastir,', 'tunisia']",arabic,"['french', '']","['30,', 'female', '']",14.0,academic,['usa'],4.0,  30
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=14,arabic12,male,"['baghdad,', 'iraq']",arabic,['none'],"['32,', 'male', '']",11.0,academic,['usa'],8.0,  32
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=15,arabic13,male,"['zabbougha,', 'lebanon']",arabic,"['french', 'swedish', '']","['25,', 'male', '']",15.0,academic,['usa'],1.0,  25
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=428,arabic14,male,"['amman,', 'jordan']",arabic,"['hebrew', '']","['47,', 'male', '']",11.0,naturalistic,['usa'],25.0,  47
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=437,arabic15,male,"['qayrawan,', 'tunisia']",arabic,"['french', '']","['40,', 'male', '']",33.0,naturalistic,['usa'],7.0,  40
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=471,arabic16,male,"['meknes,', 'morocco']",arabic,"['french', 'spanish', '']","['22,', 'male', '']",16.0,academic,[''],0.0,  22
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=512,arabic17,male,"['settat,', 'morocco']",arabic,"['french', '']","['35,', 'male', '']",15.0,academic,[''],0.0,  35
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=539,arabic18,male,"['city,', 'kuwait']",arabic,"['french', '']","['18,', 'male', '']",6.0,academic,[''],0.0,  18
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=625,arabic19,male,"['khouribga,', 'morocco']",arabic,"['french', '']","['43,', 'male', '']",18.0,academic,['usa'],8.0,  43
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=643,arabic20,male,"['valley,', 'lebanon']",arabic,"['french', 'german', '']","['36,', 'male', '']",12.0,academic,['usa'],1.0,  36
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=670,arabic21,female,"['beirut,', 'lebanon']",arabic,"['french', '']","['46,', 'female', '']",30.0,naturalistic,['usa'],13.0,  46
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=920,arabic22,female,"['arab', 'emirates']",arabic,"['french', 'hebrew', '']","['23,', 'female', '']",10.0,academic,[''],0.0,  23
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=927,arabic23,male,"['mahalla,', 'egypt']",arabic,"['italian', 'farsi', 'french', 'hebrew', '']","['42,', 'male', '']",13.0,academic,['usa'],8.0,  42
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=970,arabic24,male,"['cairo,', 'egypt']",arabic,['none'],"['40,', 'male', '']",7.0,academic,['uk'],3.0,  40
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=1011,arabic25,male,"['(occupied', 'territory)']",arabic,"['french', 'spanish', '']","['38,', 'male', '']",5.0,naturalistic,['usa'],33.0,  38
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=1012,arabic26,female,"['amman,', 'jordan']",arabic,['none'],"['43,', 'female', '']",14.0,academic,['usa'],28.0,  43
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=1013,arabic27,male,"['jerusalem,', 'israel']",arabic,"['farsi', 'hebrew', '']","['70,', 'male', '']",10.0,academic,['usa'],30.0,  70
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=1115,arabic28,male,"['arab', 'emirates']",arabic,['none'],"['30,', 'male', '']",12.0,academic,['usa'],1.0,  30
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=1116,arabic29,male,"['doha,', 'qatar']",arabic,['none'],"['19,', 'male', '']",17.0,academic,['usa'],0.3,  19
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=1133,arabic30,female,"['saudi', 'arabia']",arabic,['none'],"['19,', 'female', '']",8.0,naturalistic,['usa'],11.0,  19
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=1181,arabic31,female,"['baghdad,', 'iraq']",arabic,['none'],"['47,', 'female', '']",12.0,academic,['usa'],0.3,  47
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=1203,arabic32,male,"['baghdad,', 'iraq']",arabic,['none'],"['42,', 'male', '']",12.0,academic,['usa'],16.0,  42
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=1204,arabic33,female,"['baghdad,', 'iraq']",arabic,['none'],"['28,', 'female', '']",11.0,academic,['usa'],0.3,  28
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=1253,arabic34,female,"['city,', 'kuwait']",arabic,"['french', '']","['34,', 'female', '']",6.0,academic,['usa'],4.0,  34
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=1391,arabic35,male,"['saudi', 'arabia']",arabic,['none'],"['56,', 'male', '']",16.0,naturalistic,['usa'],33.0,  56
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=1392,arabic36,male,"['saudi', 'arabia']",arabic,['none'],"['36,', 'male', '']",6.0,academic,"['usa,', 'uk']",6.0,  36
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=1393,arabic37,male,"['saudi', 'arabia']",arabic,['none'],"['18,', 'male', '']",16.0,academic,['usa'],0.4,  18
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=1394,arabic38,female,"['maryland,', 'usa']",arabic,['none'],"['19,', 'female', '']",9.0,academic,['usa'],12.0,  19
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=1405,arabic39,male,"['saudi', 'arabia']",arabic,['none'],"['22,', 'male', '']",5.0,academic,['usa'],2.0,  22
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=1420,arabic40,male,"['saudi', 'arabia']",arabic,['none'],"['19,', 'male', '']",13.0,academic,['usa'],0.1,  19
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=1421,arabic41,male,"['saudi', 'arabia']",arabic,['none'],"['25,', 'male', '']",7.0,academic,['usa'],1.5,  25
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=1422,arabic42,male,"['saudi', 'arabia']",arabic,['none'],"['21,', 'male', '']",13.0,academic,['usa'],0.5,  21
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=1426,arabic43,female,"['beirut,', 'lebanon']",arabic,"['french', 'spanish', '']","['29,', 'female', '']",8.0,academic,[''],0.0,  29
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=1455,arabic44,female,"['saudi', 'arabia']",arabic,['none'],"['29,', 'female', '']",7.0,academic,['usa'],0.6,  29
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=1456,arabic45,female,"['colorado,', 'usa']",arabic,"['turkish', '']","['32,', 'female', '']",12.0,naturalistic,['usa'],0.5,  32
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=1457,arabic46,male,"['saudi', 'arabia']",arabic,['none'],"['28,', 'male', '']",13.0,academic,"['uk,', 'usa']",1.0,  28
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=1458,arabic47,male,"['saudi', 'arabia']",arabic,['none'],"['39,', 'male', '']",16.0,academic,['usa'],0.75,  39
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=1459,arabic48,male,"['saudi', 'arabia']",arabic,['none'],"['29,', 'male', '']",12.0,academic,['usa'],1.0,  29
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=1460,arabic49,male,"['saudi', 'arabia']",arabic,['none'],"['26,', 'male', '']",8.0,academic,['usa'],1.0,  26
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=1461,arabic50,male,"['saudi', 'arabia']",arabic,['none'],"['36,', 'male', '']",22.0,academic,['usa'],0.75,  36
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=1486,arabic51,male,"['saudi', 'arabia']",arabic,['none'],"['23,', 'male', '']",12.0,academic,['usa'],4.0,  23
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=1487,arabic52,female,"['saudi', 'arabia']",arabic,['none'],"['21,', 'female', '']",9.0,academic,['usa'],5.0,  21
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=1526,arabic53,male,"['rabat,', 'morocco']",arabic,"['french', 'tachelhit', 'danish', 'swedish', '']","['36,', 'male', '']",17.0,academic,['usa'],12.0,  36
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=1565,arabic54,male,"['baghdad,', 'iraq']",arabic,"['french', '']","['22,', 'male', '']",7.0,academic,['usa'],3.0,  22
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=1569,arabic55,male,"['beirut,', 'lebanon']",arabic,"['french', '']","['70,', 'male', '']",33.0,academic,['usa'],37.0,  70
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=1677,arabic56,male,"['defla,', 'algeria']",arabic,"['french', '']","['43,', 'male', '']",12.0,academic,['usa'],3.0,  43
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=1699,arabic57,female,"['beirut,', 'lebanon']",arabic,"['french', '']","['28,', 'female', '']",17.0,academic,['usa'],11.0,  28
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=1700,arabic58,male,"['baghdad,', 'iraq']",arabic,['none'],"['34,', 'male', '']",9.0,academic,['usa'],5.5,  34
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=1702,arabic59,male,"['irbid,', 'jordan']",arabic,"['german', '']","['55,', 'male', '']",9.0,academic,['usa'],35.0,  55
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=1711,arabic60,male,"['cairo,', 'egypt']",arabic,"['french', '']","['60,', 'male', '']",14.0,academic,['usa'],23.0,  60
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=1753,arabic61,male,"['manama,', 'bahrain']",arabic,"['turkish', 'urdu', '']","['20,', 'male', '']",7.0,academic,['usa'],1.75,  20
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=1768,arabic62,male,"['saudi', 'arabia']",arabic,['none'],"['19,', 'male', '']",18.0,academic,['usa'],1.0,  19
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=1769,arabic63,female,"['walid,', 'libya']",arabic,['none'],"['28,', 'female', '']",10.0,academic,['usa'],0.3,  28
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=1777,arabic64,male,"['saudi', 'arabia']",arabic,['none'],"['23,', 'male', '']",6.0,naturalistic,['usa'],3.0,  23
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=1778,arabic65,female,"['samail,', 'oman']",arabic,['none'],"['32,', 'female', '']",10.0,academic,"['canada,', 'usa']",6.0,  32
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=1784,arabic66,male,"['saudi', 'arabia']",arabic,['none'],"['50,', 'male', '']",14.0,academic,['usa'],1.0,  50
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=1785,arabic67,male,"['nasriah,', 'iraq']",arabic,['none'],"['43,', 'male', '']",22.0,academic,['usa'],20.0,  43
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=1805,arabic68,male,"['london,', 'uk']",arabic,['none'],"['20,', 'male', '']",6.0,naturalistic,"['uk,', 'usa']",9.0,  20
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=1810,arabic69,female,"['kerma,', 'sudan']",arabic,"['nobiin', '']","['55,', 'female', '']",15.0,academic,"['uk,', 'usa']",21.0,  55
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=1827,arabic70,male,"['casablanca,', 'morocco']",arabic,"['french', 'spanish', '']","['47,', 'male', '']",16.0,academic,['usa'],25.0,  47
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=1828,arabic71,female,"['city,', 'kuwait']",arabic,"['turkish', 'spanish', '']","['29,', 'female', '']",21.0,naturalistic,['usa'],8.0,  29
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=1832,arabic72,female,"['baghdad,', 'iraq']",arabic,['none'],"['20,', 'female', '']",11.0,academic,['usa'],4.8,  20
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=1841,arabic73,female,"['nazareth,', 'israel']",arabic,"['hebrew', '']","['47,', 'female', '']",7.0,academic,['usa'],28.0,  47
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=1870,arabic74,male,"['alexandria,', 'egypt']",arabic,"['french', '']","['18,', 'male', '']",4.0,academic,['usa'],0.4,  18
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=1885,arabic75,female,"['saudi', 'arabia']",arabic,['none'],"['26,', 'female', '']",2.0,naturalistic,['usa'],5.2,  26
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=1892,arabic76,male,"['saudi', 'arabia']",arabic,['none'],"['25,', 'male', '']",4.0,naturalistic,['usa'],0.2,  25
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=1894,arabic77,female,"['saudi', 'arabia']",arabic,"['korean', 'japanese', '']","['18,', 'female', '']",4.0,naturalistic,['usa'],1.0,  18
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=1897,arabic78,female,"['columbia,', 'usa']",arabic,['none'],"['19,', 'female', '']",3.0,naturalistic,['usa'],8.0,  19
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=1899,arabic79,female,"['saudi', 'arabia']",arabic,['none'],"['24,', 'female', '']",13.0,academic,['usa'],1.0,  24
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=1901,arabic80,male,"['saudi', 'arabia']",arabic,['none'],"['25,', 'male', '']",11.0,academic,['usa'],2.0,  25
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=1914,arabic81,male,"['saudi', 'arabia']",arabic,"['german', '']","['22,', 'male', '']",17.0,naturalistic,['usa'],3.6,  22
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=1917,arabic82,male,"['damascus,', 'syria']",arabic,['none'],"['42,', 'male', '']",12.0,academic,['usa'],0.3,  42
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=1920,arabic83,male,"['saudi', 'arabia']",arabic,['none'],"['22,', 'male', '']",21.0,academic,['usa'],1.0,  22
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=1927,arabic84,female,"['saudi', 'arabia']",arabic,['none'],"['26,', 'female', '']",12.0,academic,['usa'],2.0,  26
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=1963,arabic85,female,"['saudi', 'arabia']",arabic,['none'],"['24,', 'female', '']",14.0,academic,['usa'],0.4,  24
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=1964,arabic86,male,"['cairo,', 'egypt']",arabic,"['french', 'spanish', '']","['28,', 'male', '']",3.0,academic,"['usa,', 'canada']",2.8,  28
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=2005,arabic87,female,"['city,', 'kuwait']",arabic,"['turkish', '']","['49,', 'female', '']",10.0,academic,['usa'],0.5,  49
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=2008,arabic88,female,"['beirut,', 'lebanon']",arabic,"['french', '']","['19,', 'female', '']",4.0,academic,['usa'],3.0,  19
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=2022,arabic89,female,"['baghdad,', 'iraq']",arabic,['none'],"['35,', 'female', '']",19.0,academic,['usa'],16.0,  35
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=2036,arabic90,female,"['tripoli,', 'libya']",arabic,"['turkish', '']","['23,', 'female', '']",12.0,academic,['usa'],2.5,  23
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=2086,arabic91,female,"['saudi', 'arabia']",arabic,['none'],"['57,', 'female', '']",12.0,academic,['usa'],8.0,  57
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=2087,arabic92,male,"['baghdad,', 'iraq']",arabic,"['dutch', '']","['36,', 'male', '']",10.0,academic,['usa'],2.0,  36
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=2112,arabic93,female,"['baghdad,', 'iraq']",arabic,['none'],"['27,', 'female', '']",10.0,academic,['usa'],4.8,  27
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=2114,arabic94,female,"['arab', 'emirates']",arabic,['none'],"['24,', 'female', '']",9.0,academic,['usa'],9.0,  24
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=2143,arabic95,female,"['city,', 'kuwait']",arabic,['none'],"['31,', 'female', '']",10.0,academic,['usa'],1.0,  31
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=2153,arabic96,male,"['saudi', 'arabia']",arabic,['none'],"['21,', 'male', '']",7.0,academic,['usa'],2.0,  21
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=2154,arabic97,female,"['arab', 'emirates']",arabic,['none'],"['19,', 'female', '']",4.0,academic,[''],0.0,  19
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=2155,arabic98,female,"['arab', 'emirates']",arabic,['none'],"['19,', 'female', '']",4.0,academic,[''],0.0,  19
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=2157,arabic99,female,"['saudi', 'arabia']",arabic,['none'],"['25,', 'female', '']",16.0,academic,['usa'],2.0,  25
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=2159,arabic100,female,"['beirut,', 'lebanon']",arabic,"['french', 'german', '']","['40,', 'female', '']",10.0,academic,['usa'],20.0,  40
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=2160,arabic101,male,"['doha,', 'qatar']",arabic,['none'],"['21,', 'male', '']",10.0,academic,['usa'],2.0,  21
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=2161,arabic102,male,"['saudi', 'arabia']",arabic,"['french', '']","['22,', 'male', '']",3.0,academic,['usa'],5.0,  22
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=2196,arabic103,male,"['baghdad,', 'iraq']",arabic,['none'],"['29,', 'male', '']",10.0,academic,['usa'],3.0,  29
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=2200,arabic104,female,"['saudi', 'arabia']",arabic,['none'],"['31,', 'female', '']",6.0,academic,['usa'],4.0,  31
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=2201,arabic105,female,"['saudi', 'arabia']",arabic,['none'],"['23,', 'female', '']",12.0,academic,[''],0.0,  23
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=2202,arabic106,male,"['saudi', 'arabia']",arabic,['none'],"['28,', 'male', '']",12.0,academic,['uk'],2.0,  28
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=2203,arabic107,male,"['saudi', 'arabia']",arabic,['none'],"['28,', 'male', '']",12.0,academic,['australia'],2.0,  28
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=2204,arabic108,female,"['saudi', 'arabia']",arabic,['none'],"['30,', 'female', '']",10.0,academic,[''],0.0,  30
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=2205,arabic109,female,"['saudi', 'arabia']",arabic,['none'],"['19,', 'female', '']",10.0,academic,[''],0.0,  19
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=2216,arabic110,male,"['saudi', 'arabia']",arabic,['none'],"['27,', 'male', '']",7.0,academic,['uk'],7.0,  27
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=2217,arabic111,female,"['saudi', 'arabia']",arabic,['none'],"['20,', 'female', '']",5.0,academic,['usa'],3.0,  20
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=2218,arabic112,female,"['saudi', 'arabia']",arabic,['none'],"['19,', 'female', '']",3.0,academic,['usa'],2.5,  19
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=2219,arabic113,female,"['saudi', 'arabia']",arabic,"['spanish', '']","['20,', 'female', '']",1.0,naturalistic,['usa'],4.0,  20
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=2220,arabic114,female,"['amman,', 'jordan']",arabic,['none'],"['23,', 'female', '']",4.0,academic,"['uk,', 'usa']",5.5,  23
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=2222,arabic115,female,"['damascus,', 'syria']",arabic,"['hindi', '']","['41,', 'female', '']",19.0,academic,['usa'],22.0,  41
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=2243,arabic116,female,"['saudi', 'arabia']",arabic,['none'],"['30,', 'female', '']",13.0,academic,['usa'],4.0,  30
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=2253,arabic117,male,"['saudi', 'arabia']",arabic,['none'],"['40,', 'male', '']",37.0,academic,['usa'],3.0,  40
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=2254,arabic118,male,"['saudi', 'arabia']",arabic,['none'],"['40,', 'male', '']",13.0,academic,"['australia,', 'usa']",3.0,  40
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=2256,arabic119,male,"['saudi', 'arabia']",arabic,['none'],"['29,', 'male', '']",13.0,academic,"['uk,', 'usa']",17.0,  29
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=2257,arabic120,male,"['saudi', 'arabia']",arabic,"['amharic', 'tagalog', 'tigrigna', '']","['31,', 'male', '']",13.0,academic,['usa'],3.0,  31
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=2258,arabic121,male,"['saudi', 'arabia']",arabic,['none'],"['28,', 'male', '']",5.0,academic,['usa'],3.0,  28
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=2268,arabic122,male,"['saudi', 'arabia']",arabic,['none'],"['31,', 'male', '']",28.0,academic,['usa'],6.0,  31
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=2304,arabic123,male,"['saudi', 'arabia']",arabic,['none'],"['26,', 'male', '']",12.0,academic,['usa'],0.3,  26
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=2310,arabic124,male,"['geulmim,', 'morocco']",arabic,"['french', 'tachelhit', '']","['42,', 'male', '']",17.0,academic,['usa'],18.0,  42
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=2311,arabic125,male,"['beersheba,', 'israel']",arabic,"['hebrew', 'italian', '']","['69,', 'male', '']",12.0,academic,['usa'],12.0,  69
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=2312,arabic126,male,"['beersheba,', 'israel']",arabic,"['hebrew', '']","['51,', 'male', '']",10.0,academic,['usa'],24.0,  51
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=2313,arabic127,female,"['tarshiha-maalot,', 'israel']",arabic,"['hebrew', '']","['51,', 'female', '']",14.0,academic,['usa'],24.0,  51
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=2321,arabic128,male,"['saudi', 'arabia']",arabic,['none'],"['40,', 'male', '']",13.0,academic,['usa'],1.3,  40
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=2331,arabic129,male,"['ramallah,', 'palestine']",arabic,['none'],"['48,', 'male', '']",11.0,academic,['usa'],20.0,  48
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=2344,arabic130,male,"['saudi', 'arabia']",arabic,"['spanish', '']","['31,', 'male', '']",12.0,academic,['usa'],4.5,  31
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=2345,arabic131,male,"['saudi', 'arabia']",arabic,['none'],"['20,', 'male', '']",17.0,academic,['usa'],4.0,  20
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=2387,arabic132,female,"['cairo,', 'egypt']",arabic,"['spanish', '']","['29,', 'female', '']",19.0,naturalistic,['usa'],11.0,  29
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=2399,arabic133,female,"['saudi', 'arabia']",arabic,['none'],"['24,', 'female', '']",12.0,academic,[''],0.0,  24
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=2407,arabic134,female,"['saudi', 'arabia']",arabic,['none'],"['29,', 'female', '']",13.0,academic,['usa'],0.1,  29
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=2410,arabic135,female,"['saudi', 'arabia']",arabic,['none'],"['34,', 'female', '']",12.0,academic,['usa'],1.0,  34
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=2411,arabic136,female,"['wales,', 'uk']",arabic,['none'],"['19,', 'female', '']",14.0,naturalistic,['usa'],5.0,  19
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=2425,arabic137,male,"['arab', 'emirates']",arabic,['none'],"['20,', 'male', '']",7.0,academic,['usa'],0.7,  20
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=2426,arabic138,male,"['saudi', 'arabia']",arabic,['none'],"['25,', 'male', '']",12.0,academic,['usa'],0.2,  25
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=2427,arabic139,male,"['khartoum,', 'sudan']",arabic,['none'],"['28,', 'male', '']",5.0,academic,['usa'],23.0,  28
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=2433,arabic140,female,"['saudi', 'arabia']",arabic,['none'],"['26,', 'female', '']",6.0,academic,['usa'],2.0,  26
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=2437,arabic141,male,"['cairo,', 'egypt']",arabic,"['spanish', '']","['35,', 'male', '']",12.0,academic,['australia'],12.0,  35
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=2452,arabic142,male,"['saudi', 'arabia']",arabic,['none'],"['25,', 'male', '']",13.0,academic,"['canada,', 'uk,', 'usa']",0.5,  25
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=2470,arabic143,female,"['saudi', 'arabia']",arabic,['none'],"['20,', 'female', '']",12.0,academic,['usa'],1.0,  20
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=2479,arabic144,male,"['laayoune,', 'morocco']",arabic,"['french', '']","['32,', 'male', '']",29.0,academic,['usa'],3.0,  32
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=2488,arabic145,female,"['saudi', 'arabia']",arabic,['none'],"['22,', 'female', '']",9.0,academic,['usa'],5.0,  22
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=2508,arabic146,male,"['amman,', 'jordan']",arabic,['none'],"['27,', 'male', '']",17.0,academic,['usa'],9.0,  27
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=2544,arabic147,female,"['saudi', 'arabia']",arabic,['none'],"['56,', 'female', '']",16.0,academic,[''],0.0,  56
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=2550,arabic148,female,"['saudi', 'arabia']",arabic,['none'],"['18,', 'female', '']",12.0,academic,[''],0.0,  18
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=2584,arabic149,female,"['saudi', 'arabia']",arabic,['none'],"['26,', 'female', '']",12.0,academic,['usa'],0.5,  26
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=2592,arabic150,female,"['saudi', 'arabia']",arabic,['none'],"['25,', 'female', '']",12.0,academic,['usa'],2.0,  25
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=2598,arabic151,female,"['saudi', 'arabia']",arabic,"['french', '']","['25,', 'female', '']",5.0,academic,['usa'],3.0,  25
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=2607,arabic152,female,"['saudi', 'arabia']",arabic,['none'],"['28,', 'female', '']",7.0,naturalistic,['usa'],10.0,  28
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=2676,arabic153,male,"['city,', 'kuwait']",arabic,['none'],"['20,', 'male', '']",5.0,academic,"['usa,', 'uk']",3.1,  20
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=2693,arabic154,male,"['saudi', 'arabia']",arabic,['none'],"['64,', 'male', '']",12.0,academic,['usa'],3.5,  64
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=2720,arabic155,male,"['saudi', 'arabia']",arabic,['none'],"['28,', 'male', '']",15.0,academic,"['usa,', 'canada']",1.5,  28
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=2730,arabic156,female,"['cairo,', 'egypt']",arabic,['none'],"['18,', 'female', '']",6.0,academic,['usa'],3.5,  18
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=2734,arabic157,female,"['sanaa,', 'yemen']",arabic,['none'],"['38,', 'female', '']",6.0,academic,['usa'],2.0,  38
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=2741,arabic158,male,"['jakarta,', 'indonesia']",arabic,"['indonesian', '']","['22,', 'male', '']",8.0,academic,['usa'],5.0,  22
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=2742,arabic159,male,"['saudi', 'arabia']",arabic,['none'],"['19,', 'male', '']",14.0,naturalistic,['usa'],1.0,  19
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=2743,arabic160,female,"['amman,', 'jordan']",arabic,"['french', '']","['26,', 'female', '']",3.0,academic,['usa'],5.0,  26
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=2749,arabic161,female,"['minya,', 'egypt']",arabic,"['german', 'french', '']","['38,', 'female', '']",12.0,academic,['usa'],10.0,  38
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=2750,arabic162,male,"['saudi', 'arabia']",arabic,['none'],"['50,', 'male', '']",12.0,academic,['usa'],8.0,  50
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=2752,arabic163,female,"['bouznika,', 'morocco']",arabic,"['french', '']","['27,', 'female', '']",14.0,academic,['usa'],3.0,  27
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=2765,arabic164,female,"['sale,', 'morocco']",arabic,"['french', '']","['30,', 'female', '']",15.0,academic,['usa'],2.0,  30
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=2771,arabic165,female,"['beirut,', 'lebanon']",arabic,"['french', '']","['62,', 'female', '']",12.0,academic,['usa'],20.0,  62
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=2780,arabic166,male,"['saudi', 'arabia']",arabic,['none'],"['18,', 'male', '']",17.0,academic,['usa'],1.0,  18
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=2788,arabic167,male,"['saudi', 'arabia']",arabic,['none'],"['24,', 'male', '']",19.0,academic,['usa'],0.5,  24
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=2794,arabic168,female,"['saudi', 'arabia']",arabic,['none'],"['42,', 'female', '']",21.0,academic,['usa'],11.0,  42
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=2809,arabic169,female,"['tripoli,', 'libya']",arabic,"['french', 'swedish', '']","['21,', 'female', '']",11.0,naturalistic,['usa'],2.0,  21
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=2811,arabic170,female,"['virginia,', 'usa']",arabic,['none'],"['19,', 'female', '']",6.0,naturalistic,['usa'],9.0,  19
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=2832,arabic171,male,"['saudi', 'arabia']",arabic,['none'],"['22,', 'male', '']",18.0,academic,['usa'],5.0,  22
+http://accent.gmu.edu/browse_language.php?function=detail&speakerid=2842,arabic172,male,"['alabama,', 'usa']",arabic,['none'],"['39,', 'male', '']",13.0,academic,['usa'],6.0,  39

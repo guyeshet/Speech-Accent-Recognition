@@ -3,8 +3,6 @@ import sys
 from sklearn.model_selection import train_test_split
 
 
-
-
 # def filter_df(df):
 #     '''
 #     Function to filter audio files based on df columns
@@ -50,7 +48,8 @@ def filter_df(df):
 
     return df
 
-def split_people(df,test_size=0.2):
+
+def split_people(df, test_size=0.2):
     '''
     Create train test split of DataFrame
     :param df (DataFrame): Pandas DataFrame of audio files to be split
@@ -58,8 +57,7 @@ def split_people(df,test_size=0.2):
     :return X_train, X_test, y_train, y_test (tuple): Xs are list of df['language_num'] and Ys are df['native_language']
     '''
 
-
-    return train_test_split(df['language_num'],df['native_language'],test_size=test_size,random_state=1234)
+    return train_test_split(df['language_num'], df['native_language'], test_size=test_size, random_state=1234)
 
 
 if __name__ == '__main__':

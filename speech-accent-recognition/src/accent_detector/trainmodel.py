@@ -1,20 +1,21 @@
+import sys
 import pandas as pd
 from collections import Counter
-import sys
 
 from keras.engine.saving import load_model
+sys.path.append('../../speech-accent-recognition/src>')
 
-sys.path.append('../speech-accent-recognition/src>')
 import getsplit
-
-from keras import utils
 import accuracy
+
 import multiprocessing
 import librosa
 import numpy as np
+
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import MinMaxScaler
 
+from keras import utils
 from keras.models import Sequential
 from keras.layers.core import Dense, Dropout, Flatten
 from keras.layers.convolutional import MaxPooling2D, Conv2D
@@ -37,8 +38,12 @@ def to_categorical(y):
     '''
     lang_dict = {}
     for index, language in enumerate(set(y)):
-        lang_dict[language] = index
-    y = list(map(lambda x: lang_dict[x], y))
+        if language == "english":
+            lang_dict["english"] = 0
+        else:
+            lang_dict["other"] = 1
+        # lang_dict[language] = index
+    y = list(map(lambda x: lang_dict[x] if x == "english" else lang_dict["other"], y))
     return utils.to_categorical(y, len(lang_dict))
 
 
@@ -217,19 +222,14 @@ if __name__ == '__main__':
     # Load arguments
     # print(sys.argv)
     file_name = sys.argv[1]
-    model_filename = sys.argv[2]
+    # model_filename = sys.argv[2]
+    model_filename = "model_2_cat"
 
     # Load metadata
     df = pd.read_csv(file_name)
 
     # Filter metadata to retrieve only files desired
     filtered_df = getsplit.filter_df(df)
-
-    # filtered_df = filter_df(df)
-
-    # print(filtered_df)
-
-    # print("filterd df is empty {}".format(filtered_df))
 
     # Train test split
     X_train, X_test, y_train, y_test = getsplit.split_people(filtered_df)
@@ -270,8 +270,8 @@ if __name__ == '__main__':
     X_train, _, y_train, _ = train_test_split(X_train, y_train, test_size=0)
 
     # Train model
-    # model = train_model(np.array(X_train), np.array(y_train), np.array(X_validation), np.array(y_validation))
-    model = load_model("../models/model1.h5")
+    model = train_model(np.array(X_train), np.array(y_train), np.array(X_validation), np.array(y_validation))
+    # model = load_model("../models/model1.h5")
 
     # Make predictions on full X_test MFCCs
     y_predicted = accuracy.predict_class_all(create_segmented_mfccs(X_test), model)

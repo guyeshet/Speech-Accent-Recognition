@@ -1,0 +1,6 @@
+keras
+pandas
+sklearn
+pydub
+BeautifulSoup4
+librosa
