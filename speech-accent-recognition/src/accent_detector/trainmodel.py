@@ -5,6 +5,8 @@ from collections import Counter
 from keras.engine.saving import load_model
 
 from accent_detector import getsplit, accuracy
+from accent_detector.dl_bot import DLBot
+from accent_detector.telegram_bot_callback import TelegramBotCallback
 
 sys.path.append('../../speech-accent-recognition/src>')
 
@@ -135,7 +137,7 @@ def create_segmented_mfccs(X_train):
     return (segmented_mfccs)
 
 
-def train_model(X_train, y_train, X_validation, y_validation, batch_size=128):  # 64
+def train_model(bot, X_train, y_train, X_validation, y_validation, batch_size=128):  # 64
     '''
     Trains 2D convolutional neural network
     :param X_train: Numpy array of mfccs
@@ -193,7 +195,7 @@ def train_model(X_train, y_train, X_validation, y_validation, batch_size=128):  
     model.fit_generator(datagen.flow(X_train, y_train, batch_size=batch_size),
                         steps_per_epoch=len(X_train) / 32
                         , epochs=EPOCHS,
-                        callbacks=[es, tb], validation_data=(X_validation, y_validation))
+                        callbacks=[es, tb, bot], validation_data=(X_validation, y_validation))
 
     return (model)
 
@@ -269,9 +271,22 @@ if __name__ == '__main__':
 
     # Randomize training segments
     # X_train, _, y_train, _ = train_test_split(X_train, y_train, test_size=0)
+    # Telegram Bot imports
+
+    telegram_token = "839888724:AAG59E81mmbvJy_Jy8je1DyusR14yU8U43E"  # replace TOKEN with your bot's token
+
+    #  user id is optional, however highly recommended as it limits the access to you alone.
+    telegram_user_id = None  # replace None with your telegram user id (integer):
+
+    # Create a DLBot instance
+    bot = DLBot(token=telegram_token, user_id=telegram_user_id)
+    # Create a TelegramBotCallback instance
+    telegram_callback = TelegramBotCallback(bot)
+
 
     # Train model
-    model = train_model(np.array(X_train), np.array(y_train), np.array(X_validation), np.array(y_validation))
+    model = train_model(telegram_callback, np.array(X_train), np.array(y_train), np.array(X_validation),
+                        np.array(y_validation),)
     # model = load_model("../models/model1.h5")
 
     # Make predictions on full X_test MFCCs
