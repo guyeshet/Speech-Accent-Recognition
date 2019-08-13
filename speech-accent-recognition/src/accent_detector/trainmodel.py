@@ -3,10 +3,10 @@ import pandas as pd
 from collections import Counter
 
 from keras.engine.saving import load_model
-sys.path.append('../../speech-accent-recognition/src>')
 
-import getsplit
-import accuracy
+from accent_detector import getsplit, accuracy
+
+sys.path.append('../../speech-accent-recognition/src>')
 
 import multiprocessing
 import librosa
@@ -223,6 +223,7 @@ if __name__ == '__main__':
     # print(sys.argv)
     file_name = sys.argv[1]
     # model_filename = sys.argv[2]
+    # file_name = "bio_data_small.csv"
     model_filename = "model_2_cat"
 
     # Load metadata

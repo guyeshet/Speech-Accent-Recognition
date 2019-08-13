@@ -18,9 +18,9 @@ EPOCHS = 10  # 35#250
 
 class ModelLoader:
 
-    def __init__(self):
+    def __init__(self, model_name):
         self.folder_path = "..\models"
-        self.model_name = "model1.h5"
+        self.model_name = model_name
 
     def _get_model_path(self):
         return os.path.join(self.folder_path, self.model_name)
@@ -33,8 +33,11 @@ class ModelLoader:
 class SoundPredictor:
 
     def __init__(self, path=None):
-        self.model = ModelLoader().load_model()
+        self.model = ""
         self.csv_file = "bio_data.csv"
+
+    def load_model(self, file_path):
+        self.model = ModelLoader(file_path).load_model()
 
     def predict(self, file_path):
 
@@ -47,12 +50,21 @@ class SoundPredictor:
 
 if __name__ == '__main__':
 
-    folder_path = sys.argv[1]
-    if not folder_path:
-        folder_path = "../audio"
+    folder_path = ""
+    try:
+        folder_path = sys.argv[1]
+    except Exception:
+        pass
+    else:
+        if not folder_path:
+            folder_path = "../audio"
 
     predictor = SoundPredictor()
-    for i in range(1, 20):
-        file_path = os.path.join(folder_path, "arabic" + str(i))
-        print(predictor.predict(file_path))
-    # print(predictor.predict("arabic6"))
+    predictor.load_model("model_2_cat.h5")
+    # for i in range(1, 20):
+    #     file_path = os.path.join(folder_path, "arabic" + str(i))
+    #     print(predictor.predict(file_path))
+    # print(predictor.predict("mandarin32"))
+    print(predictor.predict("ukr"))
+    print(predictor.predict("pt"))
+    print(predictor.predict("apartment_block"))
